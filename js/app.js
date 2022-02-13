@@ -54,13 +54,13 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
-  // let sumFirst = sum(a, b)[0];
-  // let sumSecond = sum(sumFirst, c)[0];
-  // let multiplyFirst = multiply(a, b)[0];
-  // let multiplySecond = multiply(multiplyFirst, c)[0];
-  // let sprOne = `${a} and ${b} and ${c} sum to ${sumSecond}.`;
-  // let sprTwo = `The product of ${a} and ${b} and ${c} is ${multiplySecond}.`;
-  // return [sumSecond, multiplySecond, sprOne, sprTwo];
+  let sumFirst = sum(a, b)[0];
+  let sumSecond = sum(sumFirst, c)[0];
+  let multiplyFirst = multiply(a, b)[0];
+  let multiplySecond = multiply(multiplyFirst, c)[0];
+  let sprOne = `${a} and ${b} and ${c} sum to ${sumSecond}.`;
+  let sprTwo = `The product of ${a} and ${b} and ${c} is ${multiplySecond}.`;
+  return [sumSecond, multiplySecond, sprOne, sprTwo];
   
 }
 
